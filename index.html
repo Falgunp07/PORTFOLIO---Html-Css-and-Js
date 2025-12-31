@@ -1,114 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Falgun Patel | Frontend Developer</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Falgun Patel | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <!-- HERO -->
-  <header class="hero">
-    <h1>Falgun Patel</h1>
-    <p>Frontend Developer | Full Stack Developer</p>
-    <div class="links">
-      <a href="https://github.com/Falgunp07" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/falgun-patel-7386701b0" target="_blank">LinkedIn</a>
-      <a href="mailto:falgunpatel071@gmail.com">Email</a>
-    </div>
-  </header>
+    <!-- HERO -->
+    <header class="hero">
+        <h1>Falgun Patel</h1>
+        <p>Frontend Developer | Full Stack Developer</p>
+        <div class="links">
+            <a href="https://github.com/Falgunp07" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/falgun-patel-7386701b0" target="_blank">LinkedIn</a>
+            <a href="mailto:falgunpatel071@gmail.com">Email</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+           <button id="themeToggle" aria-label="Toggle theme">🌙</button>
 
-  <!-- ABOUT -->
-  <section class="section">
-    <h2>About Me</h2>
-    <p>
-      I am a Computer Science postgraduate student and Frontend Developer with hands-on
-      experience building responsive web applications using React, Tailwind CSS,
-      Node.js, and REST APIs. I focus on clean UI, scalable logic, and performance-oriented development.
-    </p>
-  </section>
 
-  <!-- SKILLS -->
-  <section class="section">
-    <h2>Skills</h2>
-    <ul class="skills">
-      <li>HTML, CSS, JavaScript</li>
-      <li>React, Tailwind CSS</li>
-      <li>Node.js, Express</li>
-      <li>PostgreSQL, REST APIs</li>
-      <li>Git, GitHub, CI/CD</li>
-    </ul>
-  </section>
+        </div>
+    </header>
 
-  <!-- EXPERIENCE -->
-  <section class="section">
-    <h2>Experience</h2>
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science postgraduate student and Frontend Developer with hands-on
+            experience building responsive web applications using React, Tailwind CSS,
+            Node.js, and REST APIs. I focus on clean UI, scalable logic, and performance-oriented development.
+        </p>
+    </section>
 
-    <div class="card">
-      <h3>Web Developer – Eduvertia</h3>
-      <span>Jul 2024 – Aug 2024</span>
-      <ul>
-        <li>Built React components using hooks (useState, useEffect).</li>
-        <li>Implemented CRUD To-Do application with localStorage persistence.</li>
-        <li>Used Tailwind CSS for responsive, mobile-first UI.</li>
-      </ul>
-    </div>
+    <!-- SKILLS -->
+    <section id="skills" class="section reveal">
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Tailwind CSS</li>
+            <li>Node.js, Express</li>
+            <li>PostgreSQL, REST APIs</li>
+            <li>Git, GitHub, CI/CD</li>
+        </ul>
+    </section>
 
-    <div class="card">
-      <h3>Website Developer – Freelancing</h3>
-      <span>Jun 2025 – Oct 2025</span>
-      <ul>
-        <li>Developed and deployed WooCommerce e-commerce website.</li>
-        <li>Handled UI customization, performance optimization, and SEO.</li>
-        <li>Integrated payments, security, and email systems.</li>
-      </ul>
-    </div>
-  </section>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section reveal">
+        <h2>Experience</h2>
 
-  <!-- PROJECTS -->
-  <section class="section">
-    <h2>Projects</h2>
+        <div class="card">
+            <h3>Web Developer – Eduvertia</h3>
+            <span>Jul 2024 – Aug 2024</span>
+            <ul>
+                <li>Built React components using hooks (useState, useEffect).</li>
+                <li>Implemented CRUD To-Do application with localStorage persistence.</li>
+                <li>Used Tailwind CSS for responsive, mobile-first UI.</li>
+            </ul>
+        </div>
 
-    <div class="card">
-      <h3>Edemy – LMS Platform</h3>
-      <p>
-        React-based e-learning UI with Tailwind CSS and Clerk authentication.
-        Deployed using CI/CD on Vercel.
-      </p>
-      <a href="https://mern-frontend-blue-one.vercel.app/" target="_blank">Live Demo</a>
-    </div>
+        <div class="card">
+            <h3>Website Developer – Freelancing</h3>
+            <span>Jun 2025 – Oct 2025</span>
+            <ul>
+                <li>Developed and deployed WooCommerce e-commerce website.</li>
+                <li>Handled UI customization, performance optimization, and SEO.</li>
+                <li>Integrated payments, security, and email systems.</li>
+            </ul>
+        </div>
+    </section>
 
-    <div class="card">
-      <h3>Verse AI</h3>
-      <p>
-        Full-stack AI utility platform using PERN stack with centralized API gateway,
-        authentication, and subscription control.
-      </p>
-      <a href="https://verseaiuser.vercel.app/" target="_blank">Live Demo</a>
-    </div>
-  </section>
+    <!-- PROJECTS -->
+    <section id="projects" class="section reveal">
+        <h2>Projects</h2>
 
-  <!-- EDUCATION -->
-  <section class="section">
-    <h2>Education</h2>
-    <ul>
-      <li>B.Sc IT – NVPAS (2022 – 2025)</li>
-      <li>M.Sc Computer Science – MIT WPU (2025 – Present)</li>
-    </ul>
-  </section>
+        <div class="card">
+            <h3>Edemy – LMS Platform</h3>
+            <p>
+                React-based e-learning UI with Tailwind CSS and Clerk authentication.
+                Deployed using CI/CD on Vercel.
+            </p>
+            <a href="https://mern-frontend-blue-one.vercel.app/" target="_blank">Live Demo</a>
+        </div>
 
-  <!-- CONTACT -->
-  <section class="section">
-    <h2>Contact</h2>
-    <p>Email: falgunpatel071@gmail.com</p>
-    <p>Location: Pune, India</p>
-  </section>
+        <div class="card">
+            <h3>Verse AI</h3>
+            <p>
+                Full-stack AI utility platform using PERN stack with centralized API gateway,
+                authentication, and subscription control.
+            </p>
+            <a href="https://verseaiuser.vercel.app/" target="_blank">Live Demo</a>
+        </div>
+    </section>
 
-  <footer>
-    <p>Built with HTML, CSS, and JavaScript</p>
-  </footer>
+    <!-- EDUCATION -->
+    <section id="education" class="section reveal">
+        <h2>Education</h2>
+        <ul>
+            <li>B.Sc IT – NVPAS (2022 – 2025)</li>
+            <li>M.Sc Computer Science – MIT WPU (2025 – Present)</li>
+        </ul>
+    </section>
 
-  <script src="script.js"></script>
+    <!-- CONTACT -->
+    <section id="contact" class="section reveal">
+        <h2>Contact</h2>
+        <p>Email: falgunpatel071@gmail.com</p>
+        <p>Location: Pune, India</p>
+    </section>
+
+    <footer>
+        <p>Built with HTML, CSS, and JavaScript</p>
+    </footer>
+
+    <button id="backToTop">↑</button>
+    <script src="script.js"></script>
+
 </body>
+
 </html>
