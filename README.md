@@ -9,7 +9,7 @@ This version serves as the foundation before rebuilding the portfolio
 using React with a component-based architecture.
 
 ## 🔗 Live Demo
-https://Falgunp07.github.io
+https://falgunp07.github.io/PORTFOLIO---Html-Css-and-Js/
 
 ## 🛠 Tech Stack
 - HTML5
