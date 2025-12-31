@@ -250,3 +250,10 @@ body.dark #themeToggle {
   background: #1e293b;
   color: #facc15;
 }
+
+/* ===== DARK MODE FIX FOR SKILLS ===== */
+body.dark .skills li {
+  background: #1e293b;        /* dark slate */
+  color: #e5e7eb;             /* light text */
+  border-color: #334155;
+}
